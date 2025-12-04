@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      var x;
+      x = $(document);
+      x.ready(primarios);
+      function primarios() {
+        var x;
+        x = $("#boton");
+        x.click(mostrarPrimarios);
+      }
+      function mostrarPrimarios() {
+        var x;
+        x = $(".primario");
+        x.css("background-color", "green");
+      }
+    </script>
+  </head>
+  <body>
+    <input type="button" value="Mostrar colores primarios" id="boton" />
+    <span class="primario">Azul</span>, Fucsia, Purpura,
+    <span class="primario">Verde</span>, Blanco,
+    <span class="primario">Rojo</span>, Negro.
+  </body>
+</html>
