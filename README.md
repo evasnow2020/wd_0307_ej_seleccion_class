@@ -1,0 +1,2 @@
+# wd_0307_ej_seleccion_class
+WD_0307_Ej_Seleccion_class Artesvisuales
